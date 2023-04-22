@@ -7,7 +7,7 @@ const Main = () => {
     <div className='home'>
         {error && <div>{error}</div>}
         {isPending && <div>Loading...</div>}
-        {tasks && <Tasks tasks={tasks} deleteData={deleteData} />}
+        {tasks && <Tasks tasks={tasks} deleteData={deleteData}  />}
     </div>
   )
 }
